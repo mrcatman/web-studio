@@ -167,6 +167,7 @@ h2 {
 
 .works__menu__item {
   width: 100%;
+  display:block;
   text-align: center;
   cursor: pointer;
   font-size: 20px;
@@ -223,6 +224,7 @@ h2 {
 .employees__container {
 	display:flex;  
 	justify-content:space-between;
+	margin-bottom:50px;
 }
 .employees__list {
     display: flex;
@@ -261,4 +263,29 @@ h2 {
     margin: 10px 0;
     font-weight: 500;
     color: #333;
+}
+.footer {
+		background:#555;
+		color:#eee;
+		padding:50px 0;
+}
+
+@media screen and (max-width:800px) {
+	.header__logo {width:80%;margin:0 auto;}
+	.container{width:calc(100% - 20px);margin:0 10px;}
+	.top-menu {height:auto;}
+	.top-menu__holder {
+		display: block;
+    }
+	h1 {font-size:32px;text-align:center;}
+	h2 {font-size:24px;text-align:center;}
+	.services {display:block;}
+	.services__divider{display:none;}
+	.works__menu{display:block;}
+	.works__row{display:block;}
+	.work {margin:0;padding:0;}
+	.employees__container{display:block;}
+	.employees__list {display:block;}
+	.employee{padding:5px 0;}
+	.copyright{text-align:center;}
 }
