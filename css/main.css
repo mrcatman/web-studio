@@ -205,7 +205,7 @@ h2 {
 .work__photo {
   padding-top: 65%;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; 
 }
 
 .work__title {
@@ -219,4 +219,46 @@ h2 {
   font-weight: 500;
   text-align: center;
   margin: 30px 0;
+}
+.employees__container {
+	display:flex;  
+	justify-content:space-between;
+}
+.employees__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.employees__icon {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+    color: #333;
+}
+.employees__icon:hover {
+	color:#555;
+}
+.employee {
+	background:#efefef;
+	width:100%;
+	margin:5px;
+	text-align:center;
+}
+.employee__photo {
+	margin:25px auto 5px;
+    background-image: url(http://placekitten.com/480/480);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.employee__name {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 500;
+    color: #333;
 }
